@@ -1,0 +1,51 @@
+.thumb {
+    display: inline-flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    width: 100%;
+    height: 16rem;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.removeThumbImg {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.removeThumbImg i {
+    color: red;
+}
+
+.thumbsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.thumbInner {
+    display: flex;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.img {
+    display: block;
+    width: auto;
+    height: 100%;
+}
+
+.form-file-upload {
+    height: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 2px;
+    border-radius: 1rem;
+    border-style: dashed;
+    border-color: #cbd5e1;
+    background-color: #f8fafc;
+}

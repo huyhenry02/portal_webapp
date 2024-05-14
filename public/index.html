@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--begin::Head-->
+    <head>
+        <base href=""/>
+        <title>Wishcare</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:locale" content="en_US" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
+        <base href="/" />
+        <link href="/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/custom.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/plugins/global/jstree.bundle.css" rel="stylesheet" type="text/css" />
+        <script>// Frame-busting to prevent site from being loaded within a frame without permission (click-jacking) if (window.top != window.self) { window.top.location.replace(window.self.location.href); }</script>
+    </head>
+
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<!--begin::Theme mode setup on page load-->
+<script>
+    let themeMode = 'system'
+
+    if (localStorage.getItem('kt_theme_mode_value')) {
+        themeMode = localStorage.getItem('kt_theme_mode_value')
+    }
+
+    if (themeMode === 'system') {
+        themeMode = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+    }
+
+    document.documentElement.setAttribute('data-bs-theme', themeMode)
+</script>
+<!--<script type="text/javascript" src="/assets/plugins/global/plugins.bundle.js"></script>-->
+<!--<script type="text/javascript" src="/assets/plugins/global/jstree.bundle.js"></script>-->
+<div id="root">
+</div>
+</body>
+</html>

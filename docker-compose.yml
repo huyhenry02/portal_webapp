@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: wishcare-web
+    image: app-dev
+    build:
+      context: .
+      target: reactjs-web
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"

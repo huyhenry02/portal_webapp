@@ -1,0 +1,4 @@
+.list-permission {
+  max-height: calc(100vh - 444px);
+  min-height: 400px;
+}

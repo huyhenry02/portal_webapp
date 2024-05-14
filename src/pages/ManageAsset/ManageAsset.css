@@ -1,0 +1,6 @@
+#kt_app_content_custom {
+    min-height: calc(100vh - 645px) !important;
+}
+.kt_app_content_asset #kt_app_content{
+    min-height: calc(100vh - 430px);
+}

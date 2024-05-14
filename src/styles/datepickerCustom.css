@@ -1,0 +1,11 @@
+.custom-datepicker > .react-datepicker-wrapper {
+    display: block;
+}
+
+.icon-end {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0;
+}

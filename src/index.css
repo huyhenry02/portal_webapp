@@ -1,0 +1,13 @@
+.ant-select-dropdown {
+  z-index: 1055;
+}
+
+.jstree-anchor:hover {
+  cursor: pointer;
+  background-color: #e5ebeb;
+}
+
+.hide-node > ul, .hide-node > ul::before {
+  overflow: hidden;
+  height: 0;
+}

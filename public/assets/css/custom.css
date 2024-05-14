@@ -1,0 +1,25 @@
+tbody tr:hover {
+    background: #fcfcfc;
+    cursor: pointer;
+}
+tbody tr:hover {
+    color: #50cd89 !important;
+}
+#kt_app_content {
+    min-height: calc(100vh - 225px);
+}
+.page-heading .page-heading-title {
+    padding-left: 10px;
+}
+.page-heading .page-heading-action:hover {
+    cursor: pointer;
+}
+.sidebar-have-child-active .menu-title {
+    color: #50cd89 !important;
+}
+table tbody td.active a, table tbody td.active {
+    color: #50cd89 !important;
+}
+table tbody td.inactive a, table tbody td.inactive {
+    color: #dc3545 !important;
+}

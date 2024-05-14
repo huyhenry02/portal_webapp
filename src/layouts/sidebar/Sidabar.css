@@ -1,0 +1,7 @@
+.menu-link-active a {
+    color: white;
+}
+.app-sidebar-navs {
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+}

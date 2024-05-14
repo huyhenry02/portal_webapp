@@ -1,0 +1,18 @@
+.dateContainer {
+    display: flex;
+    align-items: center;
+}
+
+.dateInput {
+    width: 100%;
+}
+
+.dateInput input {
+    width: calc(100% + 30px);
+    background: transparent;
+    z-index: 1;
+}
+
+.icon {
+    width: 30px;
+}

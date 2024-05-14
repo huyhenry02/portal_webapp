@@ -1,0 +1,8 @@
+#kt_header_user_menu_toggle:hover > .custom-profile-dropdown {
+    z-index: 107;
+    position: fixed;
+    inset: 0px 0px auto auto;
+    margin: 0px;
+    transform: translate3d(-20px, 59.0909px, 0px);
+    display: block;
+}

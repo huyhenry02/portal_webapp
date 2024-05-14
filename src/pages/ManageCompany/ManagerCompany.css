@@ -1,0 +1,10 @@
+.custom-tree-remove-root ul > li > ul:first-child {
+    padding-top: 0 !important;
+}
+.custom-tree-remove-root {
+    padding-top: 20px;
+    min-height: calc(100vh - 335px);
+}
+.box-name-content {
+    line-height: 40px;
+}

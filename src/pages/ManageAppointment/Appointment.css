@@ -1,0 +1,24 @@
+
+.custom-input-reject {
+    height: 119px;
+    border-radius: 6px;
+    border: 1px;
+    gap: 12px;
+}
+.kt_app_content_appointment #kt_app_content{
+    min-height: calc(100vh - 430px);
+}
+.custom-input-reject.is-invalid {
+    border-color: red !important;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+    linear-gradient(0deg, #FF3D00, #FF3D00);
+    border: 1px solid rgba(255, 61, 0, 1);
+    box-shadow: 0px 4px 16px 0px rgba(206, 221, 251, 0.64),
+    0px 0px 0px 3px rgba(206, 221, 251, 1);
+}
+
+.invalid-feedback {
+    display: block;
+    font-size: 12px;
+    color: red;
+}

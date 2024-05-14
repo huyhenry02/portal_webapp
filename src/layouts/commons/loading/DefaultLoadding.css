@@ -1,0 +1,8 @@
+.common_loading .modal.show .modal-dialog{
+    width: 75px !important;
+}
+.common_loading .modal.show .modal-dialog > div{
+    height: 75px !important;
+    background: #fcfcfc;
+    border-radius: 75px;
+}

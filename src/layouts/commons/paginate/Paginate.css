@@ -1,0 +1,33 @@
+.common_paginate ul {
+    float: right;
+    padding-right: 20px;
+}
+.common_paginate ul li {
+    list-style: none;
+    float: left;
+    margin-right: 0.25rem;
+    border-radius: 5px;
+}
+.common_paginate ul li a {
+    color: #4B5675 !important;
+}
+.common_paginate ul li.selected {
+    background: #50cd89;
+}
+.common_paginate ul li.selected a{
+    color: white !important;
+}
+.common_paginate ul li.disabled a{
+    color: #78829D !important;
+    cursor: default;
+}
+.common_paginate ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.475rem;
+    height: 2.5rem;
+    min-width: 2.5rem;
+    font-weight: 500;
+    font-size: 1.075rem;
+}

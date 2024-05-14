@@ -1,0 +1,13 @@
+.bg-body-custom {
+  width: 600px !important;
+}
+.manage-log .card-header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 60px;
+}
+.card-body {
+  overflow-y: auto; 
+}
